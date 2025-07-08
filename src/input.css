@@ -26,6 +26,18 @@ html {
   }
   
 
+
+.swiper-slide {
+  position: relative;
+}
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
 .text-def{
    @apply text-base md:text-sm lg:text-lg 2xl:text-xl;
 }
