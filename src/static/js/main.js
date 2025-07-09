@@ -70,4 +70,9 @@ const videos = document.querySelectorAll("video");
     });
 
     // INICIALIZANDO AOS
-    AOS.init();
+    AOS.init({
+      duration: 800,
+      once: false,
+      mirror: true
+
+    });

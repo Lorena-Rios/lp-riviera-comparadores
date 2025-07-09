@@ -98,8 +98,12 @@
           <div class="grid lg:grid-cols-9 gap-6 h-full">
 
             <!-- BLOCO DE TEXTO -->
-            <div class="md:mt-28 px-12 py-12 text-left font-normal lg:text-left lg:px-24 lg:py-24 lg:col-span-3 justify-center items-center lg:items-start"
-            data-aos="fade-right"
+            <div class="md:mt-28 px-12 py-12 lg:px-24 lg:py-24 lg:col-span-3"
+              data-aos="fade-down"
+              data-aos-delay="700"
+              data-aos-duration="600"
+              data-aos-offset="-100"
+
             >
               <h2 class="text-xl font-normal mb-2">PÉ NA AREIA</h2>
               <h2 class="text-xl font-normal mb-8 lg:mb-16">PÉ NA SUA PRAIA PREFERIDA A POUCOS PASSOS DE CASA.</h2>
@@ -109,7 +113,12 @@
             </div>
 
             <!-- BLOCO DE IMAGEM -->
-            <div class="lg:col-span-6 w-full h-auto lg:h-full relative flex justify-center items-center">
+            <div class="lg:col-span-6 w-full h-auto lg:h-full relative flex justify-center items-center"
+              data-aos="fade-left"
+              data-aos-delay="800"
+              data-aos-duration="800"
+              data-aos-offset="-100"
+            >
               <img src="./static/images/010_Aces_Praia_03.png" alt="Riviera Praia do Forte" class="w-full lg:w-full h-auto lg:h-full object-contain" />
             </div>
 
@@ -118,8 +127,12 @@
 
         <!-- SEÇÃO CARROSSEL -->
         <section class="text-stone-700 font-normal h-auto lg:h-[100vh] overflow-x-hidden overflow-y-hidden relative">
-          <div class="relative h-[80vh] flex items-center justify-center mt-16">
-            <div class="swiper mySwiper relative w-full h-full">
+          <div class="relative h-[50vh] lg:h-[80vh] flex items-center justify-center mt-16">
+            <div class="swiper mySwiper relative w-full h-full"
+              data-aos="fade-up"
+              data-aos-delay="900"
+              data-aos-duration="800"
+              data-aos-offset="-100">
               <div class="swiper-wrapper">
                 <div class="swiper-slide flex items-end">
                   <img src="static/images/caroussel/004_Pisc_02_05.png" class="w-auto max-w-full h-full object-cover shadow-lg" alt="Piscina 1">
@@ -148,8 +161,12 @@
               </div>
             </div>
           </div>
-          <div class="relative flex justify-center items-center pb-16">
-            <a href="#" class="mt-16 text-lg text-normal inline-block no-underline text-stone-700 hover:text-stone-900 bg-green-600 bg-opacity-40 hover:bg-opacity-55 py-2 px-6 text-center">AGENDAR VISITA</a>
+          <div class="relative flex justify-center items-center pb-16"
+              data-aos="fade-up"
+              data-aos-delay="700"
+              data-aos-duration="800"
+              data-aos-offset="-300">
+            <a href="#" class="text-base inline-block no-underline text-stone-700 hover:text-stone-900 bg-green-600 bg-opacity-40 hover:bg-opacity-55 py-2 px-6 text-center mt-8">AGENDAR VISITA</a>
           </div>
         </section>
 
@@ -167,7 +184,10 @@
 
         <!-- SECTION FOOTER -->
         <section class="relative bg-cover bg-center bg-no-repeat py-16 mt-16 " style="background-image: url('./static/images/footer_praia.png');">
-          <div class="max-w-lg mx-auto bg-zinc-200 bg-opacity-80 p-8 shadow-lg text-center">
+          <div class="max-w-lg mx-auto bg-zinc-200 bg-opacity-80 p-8 shadow-lg text-center"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          >
 
             
             <!-- Formulário -->
@@ -219,8 +239,9 @@
 
     </body>
     <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script>
-    <script src="static/js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="static/js/main.js"></script>
+
 
 
 </html>
