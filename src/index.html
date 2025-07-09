@@ -27,22 +27,7 @@
         <!-- HERO SECTION -->
         <section class="relative overflow-hidden w-full h-[100vh]">
 
-          <video
-            id="video-banner"
-            class="bg-gradient-to-b from-black/80 to-transparent absolute inset-0 w-full h-full object-cover"
-            preload=""
-            playsinline
-            autoplay
-            loop
-            muted
-          >
-            <source src="./static/videos/011_Ftmg_03.mp4" type="video/mp4" />
-          </video>
-
-          <div class="absolute inset-0 z-10 pointer-events-none bg-gradient-to-b from-transparent via-transparent to-black/30"/>
-
-
-          <div class="absolute inset-0 flex items-center justify-center z-10">
+          <div class="absolute inset-0 flex items-center justify-center z-30">
             <img
               
               src="./static/images/riviera_logo.png"
@@ -51,7 +36,7 @@
             />
           </div>
           <div
-            class="absolute inset-0 flex items-end justify-center z-40 w-full pb-8"
+            class="absolute inset-0 flex items-end justify-center z-50 w-full pb-8"
             loop
             data-aos-delay="500"
             data-aos-duration="500"
@@ -59,20 +44,65 @@
           >
             <img src="./static/images/scroll.gif" alt="Scroll" class="w-10 h-10 mx-auto block" />
           </div>
+
+
+          <video class="absolute top-0 left-0 w-full h-full object-cover opacity-100 z-10"
+          muted
+          playsinline
+          autoplay
+          >
+            <source src="./static/videos/011_Ftmg_03.mp4" type="video/mp4" />
+          </video>
+
+          <video class="absolute top-0 left-0 w-full h-full object-cover opacity-0 z-0"
+          muted
+          playsinline
+          autoplay
+          >
+            <source src="./static/videos/Take_05_Aces_Praia.mp4" type="video/mp4" />
+          </video>
+
+          <video class="absolute top-0 left-0 w-full h-full object-cover opacity-0 z-0"
+          muted
+          playsinline
+          autoplay
+          >
+            <source src="./static/videos/Take_03_Acad.mp4" type="video/mp4" />
+          </video>
+
+        <video class="absolute top-0 left-0 w-full h-full object-cover opacity-0 z-0"
+          muted
+          playsinline
+          autoplay
+          >
+            <source src="./static/videos/Take_04_Pisc.mp4" type="video/mp4" />
+        </video>
+
+        <video class="absolute top-0 left-0 w-full h-full object-cover opacity-0 z-0"
+          muted
+          playsinline
+          autoplay
+          >
+            <source src="./static/videos/009_Esp_dagua.mp4" type="video/mp4" />
+        </video>
+
+          <div class="absolute inset-0 z-40 pointer-events-none bg-gradient-to-b from-transparent via-transparent to-black/30"/>
+
+
         </section>
 
 
         <!-- SEÇÃO PÉ NA AREIA -->
-        <section class="text-stone-700 font-normal lg:h-[100vh] overflow-hidden">
+        <section class="mt-8 text-stone-700 font-normal lg:h-[90vh] overflow-hidden">
           <div class="grid lg:grid-cols-9 gap-6 h-full">
 
             <!-- BLOCO DE TEXTO -->
-            <div class="mt-28 px-12 py-12 text-left font-normal lg:text-left lg:px-24 lg:py-24 lg:col-span-3 justify-center items-center lg:items-start">
-              <h2 class="text-2xl font-normal mb-2">PÉ NA AREIA</h2>
-              <h2 class="text-2xl font-normal mb-8 lg:mb-16">PÉ NA SUA PRAIA PREFERIDA A POUCOS PASSOS DE CASA.</h2>
-              <p class="mb-4 lg:mb-8 text-lg max-w-prose">Um dos últimos empreendimentos pé na areia da região, com clube completo, paisagismo nativo, acesso fácil à praia e lotes amplos.</p>
-              <p class="mb-4 text-lg max-w-prose">Um refúgio exclusivo entre o mar e a natureza.</p>
-              <a href="#" class="text-lg inline-block no-underline text-stone-700 hover:text-stone-900 bg-green-600 bg-opacity-40 hover:bg-opacity-55 py-2 px-6 text-center mt-8">BAIXAR BOOK</a>
+            <div class="md:mt-28 px-12 py-12 text-left font-normal lg:text-left lg:px-24 lg:py-24 lg:col-span-3 justify-center items-center lg:items-start">
+              <h2 class="text-xl font-normal mb-2">PÉ NA AREIA</h2>
+              <h2 class="text-xl font-normal mb-8 lg:mb-16">PÉ NA SUA PRAIA PREFERIDA A POUCOS PASSOS DE CASA.</h2>
+              <p class="mb-4 lg:mb-8 text-base max-w-prose">Um dos últimos empreendimentos pé na areia da região, com clube completo, paisagismo nativo, acesso fácil à praia e lotes amplos.</p>
+              <p class="mb-4 text-base max-w-prose">Um refúgio exclusivo entre o mar e a natureza.</p>
+              <a href="#" class="text-base inline-block no-underline text-stone-700 hover:text-stone-900 bg-green-600 bg-opacity-40 hover:bg-opacity-55 py-2 px-6 text-center mt-8">BAIXAR BOOK</a>
             </div>
 
             <!-- BLOCO DE IMAGEM -->
@@ -84,9 +114,8 @@
         </section>
 
         <!-- SEÇÃO CARROSSEL -->
-
         <section class="text-stone-700 font-normal h-auto lg:h-[100vh] overflow-x-hidden overflow-y-hidden relative">
-          <div class="relative h-[80vh] flex items-center justify-center mt-16">
+          <div class="relative h-[80vh] flex items-center justify-center mt-16 g:grid-cols">
             <div class="swiper mySwiper relative w-full h-full">
               <div class="swiper-wrapper">
                 <div class="swiper-slide flex items-end">
@@ -138,7 +167,7 @@
 
             
             <!-- Formulário -->
-            <form class="space-y-4">
+            <form class="space-y-4 space-w-16">
               <input 
                 type="text" 
                 placeholder="DIGITE SEU NOME" 
@@ -171,14 +200,15 @@
             </div>
 
           </div>
+
           <!-- Botão WhatsApp -->
-          <a href="https://wa.me/SEUNUMERO" target="_blank" class="fixed bottom-6 right-6 z-50">
-            <div class="relative flex items-center justify-center w-14 h-14 rounded-full bg-neutral-300 text-white shadow-lg hover:bg-neutral-400 transition">
+          <a href="https://wa.me/SEUNUMERO" target="_blank" class="fixed bottom-16 right-16 z-50">
+            <div class="relative flex items-center justify-center w-16 h-16 rounded-full bg-neutral-300 text-white shadow-lg hover:bg-neutral-400 transition">
               <span class="absolute w-full h-full rounded-full bg-neutral-100 opacity-50 animate-ping"></span>
               <img src="./static/images/whatsapp_icon.svg" alt="WhatsApp" class="relative w-6 h-6 z-10" />
             </div>
           </a>
-
+        </section>
 
 
 
@@ -186,5 +216,6 @@
     </body>
     <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script>
     <script src="static/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 
 </html>
