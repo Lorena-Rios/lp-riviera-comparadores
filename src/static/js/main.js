@@ -1,27 +1,28 @@
-// SWIPPER DO CARROSSEL
 
+// SWIPER DO CARROSSEL
 document.addEventListener('DOMContentLoaded', function () {
   new Swiper('.mySwiper', {
-    slidesPerView: 1.5,
+    slidesPerView: 1.1,
     centeredSlides: true,
-    spaceBetween: 30,
+    spaceBetween: 10,
     loop: true,
     navigation: {
       nextEl: '.swiper-button-next-custom',
       prevEl: '.swiper-button-prev-custom',
     },
     breakpoints: {
+      640: {
+        slidesPerView: 1.3,
+        spaceBetween: 20,
+      },
       1024: {
         slidesPerView: 1.5,
         spaceBetween: 30,
-      },
-      640: {
-        slidesPerView: 1.1,
-        spaceBetween: 10,
       }
     }
   });
 });
+
 
 
 // CARROSSEL DE VÍDEOS
@@ -67,3 +68,6 @@ const videos = document.querySelectorAll("video");
         });
       });
     });
+
+    // INICIALIZANDO AOS
+    AOS.init();

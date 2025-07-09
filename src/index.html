@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css" />
     <link href="https://fonts.cdnfonts.com/css/rawline" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -97,7 +98,9 @@
           <div class="grid lg:grid-cols-9 gap-6 h-full">
 
             <!-- BLOCO DE TEXTO -->
-            <div class="md:mt-28 px-12 py-12 text-left font-normal lg:text-left lg:px-24 lg:py-24 lg:col-span-3 justify-center items-center lg:items-start">
+            <div class="md:mt-28 px-12 py-12 text-left font-normal lg:text-left lg:px-24 lg:py-24 lg:col-span-3 justify-center items-center lg:items-start"
+            data-aos="fade-right"
+            >
               <h2 class="text-xl font-normal mb-2">PÉ NA AREIA</h2>
               <h2 class="text-xl font-normal mb-8 lg:mb-16">PÉ NA SUA PRAIA PREFERIDA A POUCOS PASSOS DE CASA.</h2>
               <p class="mb-4 lg:mb-8 text-base max-w-prose">Um dos últimos empreendimentos pé na areia da região, com clube completo, paisagismo nativo, acesso fácil à praia e lotes amplos.</p>
@@ -115,23 +118,23 @@
 
         <!-- SEÇÃO CARROSSEL -->
         <section class="text-stone-700 font-normal h-auto lg:h-[100vh] overflow-x-hidden overflow-y-hidden relative">
-          <div class="relative h-[80vh] flex items-center justify-center mt-16 g:grid-cols">
+          <div class="relative h-[80vh] flex items-center justify-center mt-16">
             <div class="swiper mySwiper relative w-full h-full">
               <div class="swiper-wrapper">
                 <div class="swiper-slide flex items-end">
-                  <img src="static/images/caroussel/004_Pisc_02_05.png" class="w-full h-full object-cover shadow-lg" alt="Piscina 1">
+                  <img src="static/images/caroussel/004_Pisc_02_05.png" class="w-auto max-w-full h-full object-cover shadow-lg" alt="Piscina 1">
                 </div>
                 <div class="swiper-slide flex items-end">
-                  <img src="static/images/caroussel/piscina_adulto.png" class="w-full h-full object-cover shadow-lg" alt="Piscina Adulto">
+                  <img src="static/images/caroussel/piscina_adulto.png" class="w-auto max-w-full h-full object-cover shadow-lg" alt="Piscina Adulto">
                 </div>
                 <div class="swiper-slide flex items-end">
-                  <img src="static/images/caroussel/clube_infantil.png" class="w-full h-full object-cover shadow-lg" alt="Clube Infantil">
+                  <img src="static/images/caroussel/clube_infantil.png" class="w-auto max-w-full h-full object-cover shadow-lg" alt="Clube Infantil">
                 </div>
                 <div class="swiper-slide flex items-end">
-                  <img src="static/images/caroussel/hangout.png" class="w-full h-full object-cover shadow-lg" alt="Hangout">
+                  <img src="static/images/caroussel/hangout.png" class="w-auto max-w-full h-full object-cover shadow-lg" alt="Hangout">
                 </div>
                 <div class="swiper-slide flex items-end">
-                  <img src="static/images/caroussel/academia.png" class="w-full h-full object-cover shadow-lg" alt="Academia">
+                  <img src="static/images/caroussel/academia.png" class="w-auto max-w-full h-full object-cover shadow-lg" alt="Academia">
                 </div>
               </div>
 
@@ -149,6 +152,7 @@
             <a href="#" class="mt-16 text-lg text-normal inline-block no-underline text-stone-700 hover:text-stone-900 bg-green-600 bg-opacity-40 hover:bg-opacity-55 py-2 px-6 text-center">AGENDAR VISITA</a>
           </div>
         </section>
+
 
 
         <!-- SEÇÃO LOCALIZAÇÃO -->
@@ -202,8 +206,8 @@
           </div>
 
           <!-- Botão WhatsApp -->
-          <a href="https://wa.me/SEUNUMERO" target="_blank" class="fixed bottom-16 right-16 z-50">
-            <div class="relative flex items-center justify-center w-16 h-16 rounded-full bg-neutral-300 text-white shadow-lg hover:bg-neutral-400 transition">
+          <a href="https://wa.me/SEUNUMERO" target="_blank" class="fixed bottom-6 right-6 md:bottom-16 md:right-16 z-50">
+            <div class="relative flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-full bg-neutral-300 text-white shadow-lg hover:bg-neutral-400 transition">
               <span class="absolute w-full h-full rounded-full bg-neutral-100 opacity-50 animate-ping"></span>
               <img src="./static/images/whatsapp_icon.svg" alt="WhatsApp" class="relative w-6 h-6 z-10" />
             </div>
@@ -216,6 +220,7 @@
     </body>
     <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script>
     <script src="static/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
 </html>
